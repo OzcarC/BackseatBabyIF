@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1035">
+<Skein rootNode="node-1114">
     <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
-    <item nodeId="node-1035">
+    <item nodeId="node-1114">
         <command xml:space="preserve">Lab1</command>
         <result xml:space="preserve">
 
@@ -11,52 +11,178 @@
 Lab1
 An Interactive Fiction by Ozcar Cayetano
 Release 1 / Serial number 260406 / Inform 7 v10.1.2 / D
+You are rushing down Washington Avenue, in your small car, because the Baby in the backseat is hysterically crying. You do not know what it wants but you decide to pull over at a busy intersection to try and make the rest of the 4 hour drive home barable.
 
 Car
-A beat up red sedan with no headlights, just stickers.
+A beat up red sedan with no headlights, just stickers. Outside is a busy intersection.
 
 You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit snacks and rash cream) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1064"></child>
-            <child nodeId="node-1054"></child>
-            <child nodeId="node-1050"></child>
-            <child nodeId="node-1049"></child>
-            <child nodeId="node-1048"></child>
-            <child nodeId="node-1062"></child>
-            <child nodeId="node-1047"></child>
-            <child nodeId="node-1094"></child>
-            <child nodeId="node-1099"></child>
-            <child nodeId="node-1070"></child>
-            <child nodeId="node-1046"></child>
-            <child nodeId="node-1039"></child>
-            <child nodeId="node-1110"></child>
-            <child nodeId="node-1083"></child>
-            <child nodeId="node-1096"></child>
-            <child nodeId="node-1036"></child>
+        <children><child nodeId="node-1180"></child>
+            <child nodeId="node-1221"></child>
+            <child nodeId="node-1224"></child>
+            <child nodeId="node-1174"></child>
+            <child nodeId="node-1170"></child>
+            <child nodeId="node-1169"></child>
+            <child nodeId="node-1168"></child>
+            <child nodeId="node-1167"></child>
+            <child nodeId="node-1165"></child>
+            <child nodeId="node-1163"></child>
+            <child nodeId="node-1160"></child>
+            <child nodeId="node-1149"></child>
+            <child nodeId="node-1141"></child>
+            <child nodeId="node-1191"></child>
+            <child nodeId="node-1189"></child>
+            <child nodeId="node-1134"></child>
+            <child nodeId="node-1132"></child>
+            <child nodeId="node-1121"></child>
+            <child nodeId="node-1118"></child>
+            <child nodeId="node-1115"></child>
         </children>
     </item>
-    <item nodeId="node-1036">
+    <item nodeId="node-1115">
         <command xml:space="preserve">x self</command>
-        <result xml:space="preserve">As good-looking as ever.
+        <result xml:space="preserve">Your balance is $100.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1037"></child>
+        <children><child nodeId="node-1188"></child>
+            <child nodeId="node-1186"></child>
+            <child nodeId="node-1116"></child>
+            <child nodeId="node-1195"></child>
+            <child nodeId="node-1203"></child>
         </children>
     </item>
-    <item nodeId="node-1037">
+    <item nodeId="node-1203">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1205"></child>
+        </children>
+    </item>
+    <item nodeId="node-1205">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Arcade
+You can see a skeeball machine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1206"></child>
+        </children>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the skeeball machine)
+A game of skill, potential to gain upwards of 100 tickets. You are not very skilled. Costs $3 to play.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">Your balance is 100 and you have 0 tickets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Arcade
+You can see a skeeball machine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">Your balance is 100.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">Your balance is 100.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Arcade
+You can see a skeeball machine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">Your balance is 100.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1116">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
 You can see a diaper bag (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1038"></child>
+        <children><child nodeId="node-1117"></child>
         </children>
     </item>
-    <item nodeId="node-1038">
+    <item nodeId="node-1117">
         <command xml:space="preserve">clear</command>
         <result xml:space="preserve">(the diaper bag)
 Nothing obvious happens.
@@ -64,25 +190,58 @@ Nothing obvious happens.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1096">
+    <item nodeId="node-1186">
+        <command xml:space="preserve">SHOWME self</command>
+        <result xml:space="preserve">yourself - person
+location: in the Car
+unlit, inedible, portable; transparent, male; singular-named, proper-named
+description: "As good-looking as ever."
+initial appearance: none
+carrying capacity: 100
+printed name: "yourself"
+printed plural name: "people"
+indefinite article: none
+list grouping key: none
+balance: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">SHOWME baby</command>
+        <result xml:space="preserve">Baby - person
+location: in the Car
+unlit, inedible, portable; transparent, male; singular-named, improper-named
+description: "The Baby is drooling all over it's yellow-orange bib and swirling its hair into a spiral."
+initial appearance: none
+carrying capacity: 100
+printed name: "Baby"
+printed plural name: "people"
+indefinite article: none
+list grouping key: none
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1118">
         <command xml:space="preserve">x car</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1097"></child>
+        <children><child nodeId="node-1119"></child>
         </children>
     </item>
-    <item nodeId="node-1097">
+    <item nodeId="node-1119">
         <command xml:space="preserve">x car</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1098"></child>
+        <children><child nodeId="node-1120"></child>
         </children>
     </item>
-    <item nodeId="node-1098">
+    <item nodeId="node-1120">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
 A beat up red sedan with no headlights, just stickers.
@@ -92,134 +251,134 @@ You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit s
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1083">
+    <item nodeId="node-1121">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1084"></child>
+        <children><child nodeId="node-1122"></child>
         </children>
     </item>
-    <item nodeId="node-1084">
+    <item nodeId="node-1122">
         <command xml:space="preserve">outside</command>
         <result xml:space="preserve">
 The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1085"></child>
+        <children><child nodeId="node-1123"></child>
         </children>
     </item>
-    <item nodeId="node-1085">
+    <item nodeId="node-1123">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Arcade
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1086"></child>
+        <children><child nodeId="node-1124"></child>
         </children>
     </item>
-    <item nodeId="node-1086">
+    <item nodeId="node-1124">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
+        <children><child nodeId="node-1125"></child>
         </children>
     </item>
-    <item nodeId="node-1087">
+    <item nodeId="node-1125">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Arcade
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1088"></child>
+        <children><child nodeId="node-1126"></child>
         </children>
     </item>
-    <item nodeId="node-1088">
+    <item nodeId="node-1126">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1089"></child>
+        <children><child nodeId="node-1127"></child>
         </children>
     </item>
-    <item nodeId="node-1089">
+    <item nodeId="node-1127">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1090"></child>
+        <children><child nodeId="node-1128"></child>
         </children>
     </item>
-    <item nodeId="node-1090">
+    <item nodeId="node-1128">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1091"></child>
+        <children><child nodeId="node-1129"></child>
         </children>
     </item>
-    <item nodeId="node-1091">
+    <item nodeId="node-1129">
         <command xml:space="preserve">nw</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1092"></child>
+        <children><child nodeId="node-1130"></child>
         </children>
     </item>
-    <item nodeId="node-1092">
+    <item nodeId="node-1130">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1093"></child>
+        <children><child nodeId="node-1131"></child>
         </children>
     </item>
-    <item nodeId="node-1093">
+    <item nodeId="node-1131">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1110">
+    <item nodeId="node-1132">
         <command xml:space="preserve">take rash cream</command>
         <result xml:space="preserve">That's not gonna help the baby. I have that incase I get that strange rash prevents me from sitting properly again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1111"></child>
+        <children><child nodeId="node-1133"></child>
         </children>
     </item>
-    <item nodeId="node-1111">
+    <item nodeId="node-1133">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1039">
+    <item nodeId="node-1134">
         <command xml:space="preserve">take diapers</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1040"></child>
+        <children><child nodeId="node-1135"></child>
         </children>
     </item>
-    <item nodeId="node-1040">
+    <item nodeId="node-1135">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
 A beat up red sedan with no headlights, just stickers.
@@ -228,19 +387,19 @@ You can see a Baby and a diaper bag (in which are a bottle, old fruit snacks and
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1041"></child>
+        <children><child nodeId="node-1136"></child>
         </children>
     </item>
-    <item nodeId="node-1041">
+    <item nodeId="node-1136">
         <command xml:space="preserve">take rash cream</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1042"></child>
+        <children><child nodeId="node-1137"></child>
         </children>
     </item>
-    <item nodeId="node-1042">
+    <item nodeId="node-1137">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
 A beat up red sedan with no headlights, just stickers.
@@ -249,28 +408,28 @@ You can see a Baby and a diaper bag (in which are a bottle and old fruit snacks)
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1043"></child>
+        <children><child nodeId="node-1138"></child>
         </children>
     </item>
-    <item nodeId="node-1043">
+    <item nodeId="node-1138">
         <command xml:space="preserve">take bottle</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1044"></child>
+        <children><child nodeId="node-1139"></child>
         </children>
     </item>
-    <item nodeId="node-1044">
+    <item nodeId="node-1139">
         <command xml:space="preserve">take fruit snacks</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1045"></child>
+        <children><child nodeId="node-1140"></child>
         </children>
     </item>
-    <item nodeId="node-1045">
+    <item nodeId="node-1140">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
 A beat up red sedan with no headlights, just stickers.
@@ -280,16 +439,88 @@ You can see a Baby and a diaper bag (empty) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1046">
+    <item nodeId="node-1189">
+        <command xml:space="preserve">take diaper bag</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+        </children>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a diaper bag
+    diapers
+    a bottle
+    old fruit snacks
+    rash cream
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">take bag</command>
+        <result xml:space="preserve">The bag stays with the baby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+        </children>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">take diaper bag</command>
+        <result xml:space="preserve">The bag stays with the baby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1141">
         <command xml:space="preserve">take baby</command>
         <result xml:space="preserve">It's only going to slow you down, leave it here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1103"></child>
+        <children><child nodeId="node-1142"></child>
+            <child nodeId="node-1211"></child>
         </children>
     </item>
-    <item nodeId="node-1103">
+    <item nodeId="node-1211">
+        <command xml:space="preserve">take bag</command>
+        <result xml:space="preserve">The bag should stay with the baby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1212"></child>
+        </children>
+    </item>
+    <item nodeId="node-1212">
+        <command xml:space="preserve">take diapers</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1213"></child>
+        </children>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">use diapers on baby</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">drop diapers in bag</command>
+        <result xml:space="preserve">You put diapers into the diaper bag.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1142">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
 A beat up red sedan with no headlights, just stickers.
@@ -298,19 +529,19 @@ You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit s
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1104"></child>
+        <children><child nodeId="node-1143"></child>
         </children>
     </item>
-    <item nodeId="node-1104">
+    <item nodeId="node-1143">
         <command xml:space="preserve">examine car</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1105"></child>
+        <children><child nodeId="node-1144"></child>
         </children>
     </item>
-    <item nodeId="node-1105">
+    <item nodeId="node-1144">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
 A beat up red sedan with no headlights, just stickers.
@@ -319,19 +550,19 @@ You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit s
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1106"></child>
+        <children><child nodeId="node-1145"></child>
         </children>
     </item>
-    <item nodeId="node-1106">
+    <item nodeId="node-1145">
         <command xml:space="preserve">take cream</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1107"></child>
+        <children><child nodeId="node-1146"></child>
         </children>
     </item>
-    <item nodeId="node-1107">
+    <item nodeId="node-1146">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
 A beat up red sedan with no headlights, just stickers.
@@ -340,36 +571,36 @@ You can see a Baby and a diaper bag (in which are diapers, a bottle and old frui
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1108"></child>
+        <children><child nodeId="node-1147"></child>
         </children>
     </item>
-    <item nodeId="node-1108">
+    <item nodeId="node-1147">
         <command xml:space="preserve">take rash creawm</command>
         <result xml:space="preserve">I only understood you as far as wanting to take rash cream.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1109"></child>
+        <children><child nodeId="node-1148"></child>
         </children>
     </item>
-    <item nodeId="node-1109">
+    <item nodeId="node-1148">
         <command xml:space="preserve">take rash cream</command>
         <result xml:space="preserve">You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1070">
+    <item nodeId="node-1149">
         <command xml:space="preserve">outside</command>
         <result xml:space="preserve">
 The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1071"></child>
+        <children><child nodeId="node-1150"></child>
         </children>
     </item>
-    <item nodeId="node-1071">
+    <item nodeId="node-1150">
         <command xml:space="preserve">inside</command>
         <result xml:space="preserve">
 Car
@@ -379,92 +610,92 @@ You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit s
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1072"></child>
-            <child nodeId="node-1079"></child>
+        <children><child nodeId="node-1155"></child>
+            <child nodeId="node-1151"></child>
         </children>
     </item>
-    <item nodeId="node-1079">
+    <item nodeId="node-1151">
         <command xml:space="preserve">outside</command>
         <result xml:space="preserve">
 The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1080"></child>
+        <children><child nodeId="node-1152"></child>
         </children>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1152">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Arcade
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1081"></child>
+        <children><child nodeId="node-1153"></child>
         </children>
     </item>
-    <item nodeId="node-1081">
+    <item nodeId="node-1153">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1082"></child>
+        <children><child nodeId="node-1154"></child>
         </children>
     </item>
-    <item nodeId="node-1082">
+    <item nodeId="node-1154">
         <command xml:space="preserve">go to Intersection</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1072">
+    <item nodeId="node-1155">
         <command xml:space="preserve">outisde</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1073"></child>
+        <children><child nodeId="node-1156"></child>
         </children>
     </item>
-    <item nodeId="node-1073">
+    <item nodeId="node-1156">
         <command xml:space="preserve">outside</command>
         <result xml:space="preserve">
 The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1074"></child>
+        <children><child nodeId="node-1157"></child>
         </children>
     </item>
-    <item nodeId="node-1074">
+    <item nodeId="node-1157">
         <command xml:space="preserve">west</command>
         <result xml:space="preserve">
 Arcade
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1075"></child>
+        <children><child nodeId="node-1158"></child>
         </children>
     </item>
-    <item nodeId="node-1075">
+    <item nodeId="node-1158">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1076"></child>
+        <children><child nodeId="node-1159"></child>
         </children>
     </item>
-    <item nodeId="node-1076">
+    <item nodeId="node-1159">
         <command xml:space="preserve">inside</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1099">
+    <item nodeId="node-1160">
         <command xml:space="preserve">out</command>
         <result xml:space="preserve">
 The Intersection
@@ -472,10 +703,10 @@ There is an Arcade to the west, a large Gas Station to the east and the Car in t
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1100"></child>
+        <children><child nodeId="node-1161"></child>
         </children>
     </item>
-    <item nodeId="node-1100">
+    <item nodeId="node-1161">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Gas Station
@@ -483,10 +714,10 @@ It's empty. There are no cars. Just a Food Stand to the North and the Convenienc
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1101"></child>
+        <children><child nodeId="node-1162"></child>
         </children>
     </item>
-    <item nodeId="node-1101">
+    <item nodeId="node-1162">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Convenience Store
@@ -497,16 +728,16 @@ You can see a shelf (empty) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1094">
+    <item nodeId="node-1163">
         <command xml:space="preserve">o</command>
         <result xml:space="preserve">Sorry, that can't be corrected.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1095"></child>
+        <children><child nodeId="node-1164"></child>
         </children>
     </item>
-    <item nodeId="node-1095">
+    <item nodeId="node-1164">
         <command xml:space="preserve">out</command>
         <result xml:space="preserve">
 The Intersection
@@ -515,26 +746,70 @@ There is an arcade to the west, a large Gas Station to the east and the car in t
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1047">
+    <item nodeId="node-1165">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Car
-A beat up red sedan with no headlights, just stickers.
+A beat up red sedan with no headlights, just stickers. Outside is a busy intersection.
 
 You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit snacks and rash cream) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1068"></child>
+        <children><child nodeId="node-1216"></child>
+            <child nodeId="node-1166"></child>
         </children>
     </item>
-    <item nodeId="node-1068">
+    <item nodeId="node-1166">
         <command xml:space="preserve">take baby</command>
         <result xml:space="preserve">It's only going to slow you down, leave it here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1062">
+    <item nodeId="node-1216">
+        <command xml:space="preserve">clear</command>
+        <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1217"></child>
+        </children>
+    </item>
+    <item nodeId="node-1217">
+        <command xml:space="preserve">baby</command>
+        <result xml:space="preserve">The Baby might not like that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1218"></child>
+        </children>
+    </item>
+    <item nodeId="node-1218">
+        <command xml:space="preserve">clear bag</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1219"></child>
+        </children>
+    </item>
+    <item nodeId="node-1219">
+        <command xml:space="preserve">clear</command>
+        <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1220"></child>
+        </children>
+    </item>
+    <item nodeId="node-1220">
+        <command xml:space="preserve">bag</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1167">
         <command xml:space="preserve">go outside</command>
         <result xml:space="preserve">
 The Intersection
@@ -542,126 +817,210 @@ The Intersection
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1048">
+    <item nodeId="node-1168">
         <command xml:space="preserve">go The Intersection</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1049">
+    <item nodeId="node-1169">
         <command xml:space="preserve">examine car</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1050">
+    <item nodeId="node-1170">
         <command xml:space="preserve">examine baby</command>
         <result xml:space="preserve">You see nothing special about the Baby.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1051"></child>
+        <children><child nodeId="node-1171"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1171">
         <command xml:space="preserve">talk baby</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
+        <children><child nodeId="node-1172"></child>
         </children>
     </item>
-    <item nodeId="node-1052">
+    <item nodeId="node-1172">
         <command xml:space="preserve">talk to baby</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1053"></child>
+        <children><child nodeId="node-1173"></child>
         </children>
     </item>
-    <item nodeId="node-1053">
+    <item nodeId="node-1173">
         <command xml:space="preserve">take baby</command>
         <result xml:space="preserve">I don't suppose the Baby would care for that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1054">
+    <item nodeId="node-1174">
         <command xml:space="preserve">examine</command>
         <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1055"></child>
+        <children><child nodeId="node-1175"></child>
         </children>
     </item>
-    <item nodeId="node-1055">
+    <item nodeId="node-1175">
         <command xml:space="preserve">baby</command>
         <result xml:space="preserve">The Baby is drooling all over it's yellow-orange bib and swirling its hair into a spiral.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1056"></child>
+        <children><child nodeId="node-1176"></child>
         </children>
     </item>
-    <item nodeId="node-1056">
+    <item nodeId="node-1176">
         <command xml:space="preserve">take baby</command>
         <result xml:space="preserve">I don't suppose the Baby would care for that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1057"></child>
+        <children><child nodeId="node-1177"></child>
         </children>
     </item>
-    <item nodeId="node-1057">
+    <item nodeId="node-1177">
         <command xml:space="preserve">examine car</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1058"></child>
+        <children><child nodeId="node-1178"></child>
         </children>
     </item>
-    <item nodeId="node-1058">
+    <item nodeId="node-1178">
         <command xml:space="preserve">examine car</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1059"></child>
+        <children><child nodeId="node-1179"></child>
         </children>
     </item>
-    <item nodeId="node-1059">
+    <item nodeId="node-1179">
         <command xml:space="preserve">examine diaper bag</command>
         <result xml:space="preserve">In the diaper bag are diapers, a bottle, old fruit snacks and rash cream.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1064">
+    <item nodeId="node-1224">
+        <command xml:space="preserve">SHOWME bag of potato chips</command>
+        <result xml:space="preserve">bag of potato chips - thing
+location: in the snack shelf in the Convenience Store
+unlit, inedible, portable; singular-named, improper-named
+description: none
+initial appearance: none
+printed name: "bag of potato chips"
+printed plural name: none
+indefinite article: none
+list grouping key: none
+price: 3
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">RULES</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">x player</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "before examining the player" applies.]
+[Rule "basic visibility rule" applies.]
+[Rule "can't act in the dark rule" applies.]
+[Rule "basic accessibility rule" applies.]
+[Rule "carrying requirements rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "requested actions require persuasion rule" applies.]
+[Rule "carry out requested actions rule" applies.]
+[Rule "descend to specific action-processing rule" applies.]
+[Rule "work out details of specific action rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "standard examining rule" applies.]
+Your balance is $100.
+
+[Rule "examine directions rule" applies.]
+[Rule "examine containers rule" applies.]
+[Rule "examine supporters rule" applies.]
+[Rule "examine devices rule" applies.]
+[Rule "examine undescribed things rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "report other people examining rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "timed events rule" applies.]
+[Rule "advance time rule" applies.]
+[Rule "update chronological records rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "adjust light rule" applies.]
+[Rule "note object acquisitions rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1180">
         <command xml:space="preserve">Go Outside</command>
         <result xml:space="preserve">
 The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1065"></child>
+        <children><child nodeId="node-1181"></child>
         </children>
     </item>
-    <item nodeId="node-1065">
+    <item nodeId="node-1181">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">The Intersection
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1066"></child>
+        <children><child nodeId="node-1182"></child>
         </children>
     </item>
-    <item nodeId="node-1066">
+    <item nodeId="node-1182">
         <command xml:space="preserve">examine self</command>
         <result xml:space="preserve">A single mom who works two jobs...
 
