@@ -202,6 +202,18 @@ After taking:
 	say "You put [the noun] in your pockets."
 
 
+Playing is an action applying to one visible thing. Understand "play [something]" as playing. 
+	
+	Check playing:
+		if the noun is not an arcade machine, say "You can only play with arcade machines." instead.
+		
+	Carry out playing:
+		say " You input $[price of the noun] into the machine.";
+		decrease the balance of the player by the price of the noun;
+		say "You now have $[balance of the player]."
+	
+	After playing:
+		
 [
 At the time the turn is greater than 50:
 	say "It is getting late, you should go back home."
