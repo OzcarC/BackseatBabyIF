@@ -1,7 +1,7 @@
 "Lab1" by Ozcar Cayetano
 
 After printing the banner text:
-	say "You are rushing down Washington Avenue, in your small car, because the Baby in the backseat is hysterically crying. You do not know what it wants but you decide to pull over at a busy intersection to try and make the rest of the 4 hour drive home barable."
+	say "[line break]You are rushing down Washington Avenue, in your small car, because the Baby in the backseat is hysterically crying. You do not know what it wants but you decide to pull over at a busy intersection to try and make the rest of the 4 hour drive home barable."
 
 	
 [Use "now" stmt to change state of flags or other things]
@@ -68,6 +68,18 @@ Strong, look at documents.
 	Can ignore for my case but sets relations between many to many, one to one, many to one, one to many, etc.
 ]
 
+[Time & Events
+
+- When play begins
+- Every turn when
+- At the time when
+]
+
+[if <cond> x times]
+
+[end the story saying "ending text"]
+
+
 [World setup]
 
 
@@ -114,16 +126,35 @@ The Intersection is north of the Diner.
 The Arcade is a room west of the Intersection. 
 The Intersection is east of the Arcade.
 
-The skeeball machine is in the Arcade. The description is "A game of skill, potential to gain upwards of 100 tickets. You are not very skilled. Costs $3 to play."
 
+[machine pricing]
+
+[skeeball]
+The skeeball machine has a number called price. The price of the skeeball machine is 20. It has a number called payout. The payout of the skeeball is 100. it is not portable. it is in the Arcade. The description is "A game of skill, potential to gain upwards of [payout of the noun] tickets. You are not very skilled."
+
+[basketball]
+The basketball hoop has a number called price. The price of the basketball hoop is 25. 
+It has a number called payout. The payout of the basketball hoop is 30. it is not portable. it is in the Arcade. The description is "You used to play basketball in school, maybe your skills will come back to you. The balls are slightly smaller than regular and deflated a bit. This potential payout is only up to [payout of the noun] tickets but its really fun" 
+
+[water gun target]
+The water gun game has a number called price. The price of the water gun game is 10. 
+It has a number called payout. The payout of the water gun game is 20. it is not portable. it is in the Arcade. The description is "A classic carvnival game where you aim at the target with your water gun and try to make the lights go all the way up. The potential payout is [payout of the noun] tickets."
+
+[punching machine]
+
+The punching machine has a number called price. The price of the punching machine is 5. It has a number called payout. The payout of the punching machine is 15. it is not portable. it is in the Arcade. The description is "Test your strength with this machine. The potential payout is [payout of the noun] tickets."
 
 [Gas Station]
 The Gas Station is a room east of the Intersection. The description is "It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East."
 The Intersection is west of the Gas Station.
 
 [Food stand]
-The Food Stand is a room north of the Gas Station.
+The counter is a container. It is in the Food Stand. It contains a spicy mango, a hot dog, and a coconut water. 
+The Food Stand is a room north of the Gas Station. "An older man is on the other side of the stand. [if counter contains something] There are foods on the counter. [otherwise] There are no more new foods on the counter. To the south is the Gas Station."
 The Gas Station is south of the Food Stand.
+
+
+
 
 [Convenience Store]
 The Convenience Store is a room east of the Gas Station. 
@@ -132,14 +163,46 @@ The Gas Station is west of the Convenience Store.
 
 [snack shelf]
 The snack shelf is a container. The description is "The small shelf has a variety of snacks." 
-
 The snack shelf is in the Convenience Store. 
-The snack shelf contains a bag of potato chips, a candy bar, a room temperature orange soda, and refrigerated milk.
+The snack shelf contains a bag of potato chips, a candy bar, an orange soda, and milk.
 
-the bag of potato chips is a thing. it has a number called price. the price of the bag of potato chips is 3.
+[snack pricing]
+The bag of potato chips has a number called price. the price of the bag of potato chips is 4.
+The candy bar has a number called price. the price of the candy bar is 2. 
+The orange soda has a number called price. the price of the orange soda is 3. 
+The milk has a number called price. the price of the milk is 5.
 
-After taking something:
-	if the price of the noun is greater than zero:
-		say "You paid [the price of the noun].";
-		decrease the balance of the player by the price of the noun.
-	
+[snack descriptions]
+The description of the bag of potato chips is "There is an excessive sodium and calorie warning on the front. Barbeque flavored, yum!"
+
+The description of the candy bar is "A hefty chocolate flavored candy bar."
+
+The description of the orange soda is "A fizzy, radioactive orange drink. It is room temperature... "
+
+The description of the milk is "A full gallon of whole milk. It is cold to the touch even though it is on the shelf, weird."
+
+[rules]
+
+[Pricing text after description ]
+After examining something:
+	if the noun provides the property price:
+		if the price of the noun is greater than zero:
+			if the noun is portable:
+				say "It is priced at $[price of the noun].";
+			otherwise:
+				say "It costs $[price of the noun] to play."				
+			
+[transaction and confirmation]
+After taking:
+	if the noun provides the property price:
+		if the price of the noun is greater than zero:
+			say "You paid $[the price of the noun].";
+			decrease the balance of the player by the price of the noun;
+			now the price of the noun is zero;
+	say "You put [the noun] in your pockets."
+
+
+[
+At the time the turn is greater than 50:
+	say "It is getting late, you should go back home."
+	]

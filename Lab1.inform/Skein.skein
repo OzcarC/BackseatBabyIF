@@ -10,7 +10,8 @@
 
 Lab1
 An Interactive Fiction by Ozcar Cayetano
-Release 1 / Serial number 260406 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 260408 / Inform 7 v10.1.2 / D
+
 You are rushing down Washington Avenue, in your small car, because the Baby in the backseat is hysterically crying. You do not know what it wants but you decide to pull over at a busy intersection to try and make the rest of the 4 hour drive home barable.
 
 Car
@@ -23,6 +24,7 @@ You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit s
         <children><child nodeId="node-1180"></child>
             <child nodeId="node-1221"></child>
             <child nodeId="node-1224"></child>
+            <child nodeId="node-1358"></child>
             <child nodeId="node-1174"></child>
             <child nodeId="node-1170"></child>
             <child nodeId="node-1169"></child>
@@ -32,11 +34,15 @@ You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit s
             <child nodeId="node-1163"></child>
             <child nodeId="node-1160"></child>
             <child nodeId="node-1149"></child>
+            <child nodeId="node-1237"></child>
             <child nodeId="node-1141"></child>
             <child nodeId="node-1191"></child>
+            <child nodeId="node-1230"></child>
+            <child nodeId="node-1225"></child>
             <child nodeId="node-1189"></child>
             <child nodeId="node-1134"></child>
             <child nodeId="node-1132"></child>
+            <child nodeId="node-1253"></child>
             <child nodeId="node-1121"></child>
             <child nodeId="node-1118"></child>
             <child nodeId="node-1115"></child>
@@ -353,6 +359,268 @@ The Intersection
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">take snacks</command>
+        <result xml:space="preserve">You put old fruit snacks in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1265"></child>
+            <child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">take rash cream</command>
+        <result xml:space="preserve">That's not gonna help the baby. You have that incase you get that strange rash that prevents you from sitting properly again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1257"></child>
+        </children>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Convenience Store
+The cashier seems occupied with someone on the phone. The actual store only has one shelf of snacks. To the west is the Gas Station.
+
+You can see a snack shelf (in which are a bag of potato chips, a candy bar, an orange soda and milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1258"></child>
+        </children>
+    </item>
+    <item nodeId="node-1258">
+        <command xml:space="preserve">take chips</command>
+        <result xml:space="preserve">You paid $4.
+You put the bag of potato chips in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1259"></child>
+        </children>
+    </item>
+    <item nodeId="node-1259">
+        <command xml:space="preserve">x bar</command>
+        <result xml:space="preserve">A hefty chocolate flavored candy bar. It is priced at $2, what a bargain!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+        </children>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">take bar</command>
+        <result xml:space="preserve">You paid $2.
+You put the candy bar in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1261"></child>
+        </children>
+    </item>
+    <item nodeId="node-1261">
+        <command xml:space="preserve">x soda</command>
+        <result xml:space="preserve">A fizzy, radioactive orange drink. It is room temperature... It is priced at $3.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">x shelf</command>
+        <result xml:space="preserve">The small shelf has a variety of snacks.
+
+In the snack shelf are an orange soda and milk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">x milk</command>
+        <result xml:space="preserve">You see nothing special about milk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1265">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1266"></child>
+        </children>
+    </item>
+    <item nodeId="node-1266">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1267"></child>
+        </children>
+    </item>
+    <item nodeId="node-1267">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Convenience Store
+The cashier seems occupied with someone on the phone. The actual store only has one shelf of snacks. To the west is the Gas Station.
+
+You can see a snack shelf (in which are a bag of potato chips, a candy bar, an orange soda and milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1268"></child>
+        </children>
+    </item>
+    <item nodeId="node-1268">
+        <command xml:space="preserve">x bar</command>
+        <result xml:space="preserve">A hefty chocolate flavored candy bar.
+
+It is priced at $2.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1269"></child>
+        </children>
+    </item>
+    <item nodeId="node-1269">
+        <command xml:space="preserve">x milk</command>
+        <result xml:space="preserve">A full gallon of whole milk. It is cold to the touch even though it is on the shelf, weird.
+
+It is priced at $5.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1270"></child>
+        </children>
+    </item>
+    <item nodeId="node-1270">
+        <command xml:space="preserve">x soda</command>
+        <result xml:space="preserve">A fizzy, radioactive orange drink. It is room temperature... 
+
+It is priced at $3.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1271"></child>
+        </children>
+    </item>
+    <item nodeId="node-1271">
+        <command xml:space="preserve">x chips</command>
+        <result xml:space="preserve">There is an excessive sodium and calorie warning on the front. Barbeque flavored, yum!
+
+It is priced at $4.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1272"></child>
+        </children>
+    </item>
+    <item nodeId="node-1272">
+        <command xml:space="preserve">take drink</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1273"></child>
+        </children>
+    </item>
+    <item nodeId="node-1273">
+        <command xml:space="preserve">take soda</command>
+        <result xml:space="preserve">You paid $3.
+You put the orange soda in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1274"></child>
+        </children>
+    </item>
+    <item nodeId="node-1274">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  an orange soda
+  old fruit snacks
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1275"></child>
+        </children>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">clear</command>
+        <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">drop soda</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">x soda</command>
+        <result xml:space="preserve">A fizzy, radioactive orange drink. It is room temperature... 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">take soda</command>
+        <result xml:space="preserve">You put the orange soda in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1279"></child>
+        </children>
+    </item>
+    <item nodeId="node-1279">
+        <command xml:space="preserve">clear</command>
+        <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1132">
         <command xml:space="preserve">take rash cream</command>
         <result xml:space="preserve">That's not gonna help the baby. I have that incase I get that strange rash prevents me from sitting properly again.
@@ -460,6 +728,248 @@ You can see a Baby and a diaper bag (empty) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">take diaper</command>
+        <result xml:space="preserve">The bag should stay with the baby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Convenience Store
+The cashier seems occupied with someone on the phone. The actual store only has one shelf of snacks. To the west is the Gas Station.
+
+You can see a snack shelf (in which are a bag of potato chips, a candy bar, a room temperature orange soda and refrigerated milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1229"></child>
+        </children>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">
+*** Run-time problem P10: Since refrigerated milk is not allowed the property "price", it is against the rules to try to use it.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">take bottle</command>
+        <result xml:space="preserve">You put the bottle in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1241"></child>
+            <child nodeId="node-1231"></child>
+        </children>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a bottle
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1234"></child>
+        </children>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Convenience Store
+The cashier seems occupied with someone on the phone. The actual store only has one shelf of snacks. To the west is the Gas Station.
+
+You can see a snack shelf (in which are a bag of potato chips, a candy bar, a room temperature orange soda and refrigerated milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1235"></child>
+        </children>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">take chips</command>
+        <result xml:space="preserve">You paid 3.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">Your balance is $97.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">drop bottle</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">take bottle</command>
+        <result xml:space="preserve">You put the bottle in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Convenience Store
+The cashier seems occupied with someone on the phone. The actual store only has one shelf of snacks. To the west is the Gas Station.
+
+You can see a snack shelf (in which are a bag of potato chips, a candy bar, an orange soda and milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">take potato chips</command>
+        <result xml:space="preserve">You paid 4.
+You put the bag of potato chips in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">drop potato chips</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">take potato chips</command>
+        <result xml:space="preserve">You put the bag of potato chips in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">take candy</command>
+        <result xml:space="preserve">You paid 2.
+You put the candy bar in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+        </children>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">take soda</command>
+        <result xml:space="preserve">You paid 3.
+You put the orange soda in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">You paid 5.
+You put milk in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">x soda</command>
+        <result xml:space="preserve">You see nothing special about the orange soda.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1191">
         <command xml:space="preserve">take bag</command>
         <result xml:space="preserve">The bag stays with the baby.
@@ -483,6 +993,7 @@ You can see a Baby and a diaper bag (empty) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1142"></child>
+            <child nodeId="node-1323"></child>
             <child nodeId="node-1211"></child>
         </children>
     </item>
@@ -516,6 +1027,94 @@ You can see a Baby and a diaper bag (empty) here.
     <item nodeId="node-1214">
         <command xml:space="preserve">drop diapers in bag</command>
         <result xml:space="preserve">You put diapers into the diaper bag.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">What do you want to take?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">baby</command>
+        <result xml:space="preserve">It's only going to slow you down, leave it here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">baby</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1326"></child>
+        </children>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">clear</command>
+        <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1327"></child>
+        </children>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">text</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1328"></child>
+        </children>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1329"></child>
+        </children>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">take bottle</command>
+        <result xml:space="preserve">You put the bottle in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+        </children>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">give bottle to baby</command>
+        <result xml:space="preserve">The Baby doesn't seem interested.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+        </children>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">SHOWME baby</command>
+        <result xml:space="preserve">Baby - person
+location: in the Car
+unlit, inedible, portable; transparent, male; singular-named, improper-named
+description: "The Baby is drooling all over it's yellow-orange bib and swirling its hair into a spiral."
+initial appearance: none
+carrying capacity: 100
+printed name: "Baby"
+printed plural name: "people"
+indefinite article: none
+list grouping key: none
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -588,6 +1187,20 @@ You can see a Baby and a diaper bag (in which are diapers, a bottle and old frui
         <result xml:space="preserve">You already have that.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">t bottle</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">take bottle</command>
+        <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1149">
@@ -704,7 +1317,463 @@ There is an Arcade to the west, a large Gas Station to the east and the Car in t
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1161"></child>
+            <child nodeId="node-1307"></child>
+            <child nodeId="node-1281"></child>
+            <child nodeId="node-1333"></child>
         </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">x arcade</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1334"></child>
+        </children>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1335"></child>
+        </children>
+    </item>
+    <item nodeId="node-1335">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1336"></child>
+        </children>
+    </item>
+    <item nodeId="node-1336">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Food Stand
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1281">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Arcade
+You can see a skeeball machine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1295"></child>
+            <child nodeId="node-1289"></child>
+            <child nodeId="node-1285"></child>
+            <child nodeId="node-1282"></child>
+        </children>
+    </item>
+    <item nodeId="node-1282">
+        <command xml:space="preserve">x skeeball</command>
+        <result xml:space="preserve">A game of skill, potential to gain upwards of 100 tickets. You are not very skilled. Costs $
+*** Run-time problem P10: Since the skeeball machine is not allowed the property "price", it is against the rules to try to use it.
+
+0 to play.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">x skee</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1286"></child>
+        </children>
+    </item>
+    <item nodeId="node-1286">
+        <command xml:space="preserve">x machine</command>
+        <result xml:space="preserve">A game of skill, potential to gain upwards of 100 tickets. You are not very skilled. Costs $20 to play.
+
+It is priced at $20.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1289">
+        <command xml:space="preserve">x machine</command>
+        <result xml:space="preserve">A game of skill, potential to gain upwards of 100 tickets. You are not very skilled. 
+
+It costs $20 to play.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1302"></child>
+        </children>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">take machine</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">play machine</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+        </children>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">use plachine</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1305"></child>
+        </children>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">interact with machine</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1295">
+        <command xml:space="preserve">SHOWME skeeball machine</command>
+        <result xml:space="preserve">skeeball machine - thing
+location: in the Arcade
+unlit, inedible, fixed in place; singular-named, improper-named
+description: "A game of skill, potential to gain upwards of 100 tickets. You are not very skilled. Costs $20 to play."
+initial appearance: none
+printed name: "skeeball machine"
+printed plural name: none
+indefinite article: none
+list grouping key: none
+price: 20
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">in</command>
+        <result xml:space="preserve">
+Car
+A beat up red sedan with no headlights, just stickers. Outside is a busy intersection.
+
+You can see a Baby and a diaper bag (in which are diapers, a bottle, old fruit snacks and rash cream) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+            <child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">x baby</command>
+        <result xml:space="preserve">The Baby is drooling all over it's yellow-orange bib and swirling its hair into a spiral.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">take snacks</command>
+        <result xml:space="preserve">You put old fruit snacks in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1310"></child>
+        </children>
+    </item>
+    <item nodeId="node-1310">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1311"></child>
+        </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Convenience Store
+The cashier seems occupied with someone on the phone. The actual store only has one shelf of snacks. To the west is the Gas Station.
+
+You can see a snack shelf (in which are a bag of potato chips, a candy bar, an orange soda and milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1313"></child>
+        </children>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">take chips</command>
+        <result xml:space="preserve">You paid $4.
+You put the bag of potato chips in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1314"></child>
+        </children>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">x pot</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1317"></child>
+        </children>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "before examining the player" applies.]
+[Rule "basic visibility rule" applies.]
+[Rule "can't act in the dark rule" applies.]
+[Rule "basic accessibility rule" applies.]
+[Rule "carrying requirements rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "requested actions require persuasion rule" applies.]
+[Rule "carry out requested actions rule" applies.]
+[Rule "descend to specific action-processing rule" applies.]
+[Rule "work out details of specific action rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "standard examining rule" applies.]
+Your balance is $96.
+
+[Rule "examine directions rule" applies.]
+[Rule "examine containers rule" applies.]
+[Rule "examine supporters rule" applies.]
+[Rule "examine devices rule" applies.]
+[Rule "examine undescribed things rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "After examining something" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "timed events rule" applies.]
+[Rule "advance time rule" applies.]
+[Rule "update chronological records rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "adjust light rule" applies.]
+[Rule "note object acquisitions rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1321"></child>
+        </children>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "basic visibility rule" applies.]
+[Rule "basic accessibility rule" applies.]
+[Rule "carrying requirements rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "requested actions require persuasion rule" applies.]
+[Rule "carry out requested actions rule" applies.]
+[Rule "descend to specific action-processing rule" applies.]
+[Rule "work out details of specific action rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "move player and vehicle rule" applies.]
+[Rule "move floating objects rule" applies.]
+[Rule "check light in new location rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "describe room gone into rule" applies.]
+
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "work out details of specific action rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+Gas Station
+[Rule "room description body text rule" applies.]
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+[Rule "check new arrival rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "timed events rule" applies.]
+[Rule "advance time rule" applies.]
+[Rule "update chronological records rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "adjust light rule" applies.]
+[Rule "note object acquisitions rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">buy bottle</command>
+        <result xml:space="preserve">Nothing is on sale.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+The Intersection
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1356"></child>
+        </children>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Convenience Store
+The cashier seems occupied with someone on the phone. The actual store only has one shelf of snacks. To the west is the Gas Station.
+
+You can see a snack shelf (in which are a bag of potato chips, a candy bar, an orange soda and milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1357"></child>
+        </children>
+    </item>
+    <item nodeId="node-1357">
+        <command xml:space="preserve">buy bar</command>
+        <result xml:space="preserve">Nothing is on sale.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1161">
         <command xml:space="preserve">e</command>
@@ -715,7 +1784,19 @@ It's empty. There are no cars. Just a Food Stand to the North and the Convenienc
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1162"></child>
+            <child nodeId="node-1339"></child>
         </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Food Stand
+An older man is on the other side of the stand.  There are no more new foods on the counter. To the south is the Gas Station.
+
+You can see a counter (in which are a spicy mango, a hot dog and a coconut water) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1162">
         <command xml:space="preserve">e</command>
@@ -741,7 +1822,70 @@ You can see a shelf (empty) here.
         <command xml:space="preserve">out</command>
         <result xml:space="preserve">
 The Intersection
-There is an arcade to the west, a large Gas Station to the east and the car in the intersection.
+There is an Arcade to the west, a large Gas Station to the east and the Car in the Intersection.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gas Station
+It's empty. There are no cars. Just a Food Stand to the North and the Convenience Store to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1346"></child>
+        </children>
+    </item>
+    <item nodeId="node-1346">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Food Stand
+An older man is on the other side of the stand.  There are a foods on the counter. 
+
+You can see a counter (in which are a spicy mango, a hot dog and a coconut water) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1347"></child>
+        </children>
+    </item>
+    <item nodeId="node-1347">
+        <command xml:space="preserve">take mango</command>
+        <result xml:space="preserve">You put the spicy mango in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1348"></child>
+        </children>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">take dog</command>
+        <result xml:space="preserve">You put the hot dog in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">take water</command>
+        <result xml:space="preserve">You put the coconut water in your pockets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Food Stand
+An older man is on the other side of the stand.  There are no more new foods on the counter. To the south is the Gas Station.
+
+You can see a counter (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -913,6 +2057,39 @@ The Intersection
     <item nodeId="node-1179">
         <command xml:space="preserve">examine diaper bag</command>
         <result xml:space="preserve">In the diaper bag are diapers, a bottle, old fruit snacks and rash cream.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">buy snacks</command>
+        <result xml:space="preserve">Nothing is on sale.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+            <child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">x baby</command>
+        <result xml:space="preserve">The Baby is drooling all over it's yellow-orange bib and swirling its hair into a spiral.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">buy</command>
+        <result xml:space="preserve">What do you want to buy?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">diapers</command>
+        <result xml:space="preserve">Nothing is on sale.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
